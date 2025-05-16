@@ -37,7 +37,7 @@ const Navbar = () => {
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
         <li>
-          <a href="http://localhost:5174" target="_blank" rel="noopener noreferrer" className='py-1 text-blue-600 hover:underline'>
+          <a href="https://mediconnect-admin-zfq6.onrender.com" target="_blank" rel="noopener noreferrer" className='py-1 text-blue-600 hover:underline'>
             Admin Panel
           </a>
         </li>
