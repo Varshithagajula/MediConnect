@@ -52,7 +52,9 @@ Oversee payments and reports.
 
 **Getting Started**
 **1. Clone the Repository**
+
 git clone https://github.com/Varshithagajula/MediConnect.git
+
 cd MediConnect
 
 **2. Install Dependencies**
@@ -60,12 +62,14 @@ cd MediConnect
 **Frontend**
 
 cd frontend
+
 npm install
 
 
 **Backend**
 
 cd ../backend
+
 npm install
 
 **3. Configure Environment Variables**
@@ -73,8 +77,11 @@ npm install
 **Create a .env file in the backend with:**
 
 MONGO_URI=<your_mongo_db_connection>
+
 RAZORPAY_KEY_ID=<your_key>
+
 RAZORPAY_KEY_SECRET=<your_secret>
+
 JWT_SECRET=<your_jwt_secret>
 
 **4. Run the Application**
